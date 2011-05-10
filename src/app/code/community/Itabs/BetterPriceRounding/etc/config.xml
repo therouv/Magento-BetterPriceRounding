@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<Itabs_BetterPriceRounding>
+			<version>1.0.1</version>
+		</Itabs_BetterPriceRounding>
+	</modules>
+	<global>
+		<blocks>
+			<adminhtml>
+				<rewrite>
+					<catalog_product_helper_form_price>Itabs_BetterPriceRounding_Block_Adminhtml_Catalog_Product_Helper_Form_Price</catalog_product_helper_form_price>
+					<catalog_product_edit_tab_options_option>Itabs_BetterPriceRounding_Block_Adminhtml_Catalog_Product_Edit_Tab_Options_Option</catalog_product_edit_tab_options_option>
+				</rewrite>
+			</adminhtml>
+		</blocks>
+		<models>
+			<core>
+				<rewrite>
+					<store>Itabs_BetterPriceRounding_Model_Core_Store</store>
+				</rewrite>
+			</core>
+		</models>
+	</global>
+</config>
