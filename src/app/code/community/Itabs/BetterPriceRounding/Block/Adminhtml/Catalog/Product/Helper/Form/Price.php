@@ -1,4 +1,16 @@
 <?php
+/**
+ * This file is part of the Itabs_BetterPriceRounding module.
+ * 
+ * PHP version 5
+ *
+ * @category  Itabs
+ * @package   Itabs_BetterPriceRounding
+ * @author    ITABS GmbH / Rouven Alexander Rieker <rouven.rieker@itabs.de>
+ * @copyright 2011 ITABS GmbH (http://www.itabs.de/). All rights served.
+ * @license   http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ * @version   $Id:$
+ */
 require_once 'Mage/Adminhtml/Block/Catalog/Product/Helper/Form/Price.php';
 /**
  * This class provides a overwritten method which rounds correct to four places
@@ -17,8 +29,9 @@ class Itabs_BetterPriceRounding_Block_Adminhtml_Catalog_Product_Helper_Form_Pric
     /**
      * Returns a number_formatted number rounded correct to four decimal places
      * 
-     * @param Varien_Object $index
-     * @return float $value
+     * @param Varien_Object $index Object
+     * 
+     * @return float $value Formatted Price
      */
     public function getEscapedValue($index=null)
     {
