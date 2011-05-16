@@ -2,7 +2,7 @@
 <config>
 	<modules>
 		<Itabs_BetterPriceRounding>
-			<version>1.0.1</version>
+			<version>1.0.2</version>
 		</Itabs_BetterPriceRounding>
 	</modules>
 	<global>
@@ -15,6 +15,11 @@
 			</adminhtml>
 		</blocks>
 		<models>
+			<catalog>
+				<rewrite>
+					<product_option_type_select>Itabs_BetterPriceRounding_Model_Product_Option_Type_Select</product_option_type_select>
+				</rewrite>
+			</catalog>
 			<core>
 				<rewrite>
 					<store>Itabs_BetterPriceRounding_Model_Core_Store</store>
