@@ -11,7 +11,7 @@
  * @license   http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  * @version   $Id:$
  */
-require_once 'Mage/Catalog/Model/Product/Option/Type/Select.php';
+require_once 'Mage/Catalog/Model/Product/Option/Type/Text.php';
 /**
  * This class adds a fix for precentage price additions..
  * 
