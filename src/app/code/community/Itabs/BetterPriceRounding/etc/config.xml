@@ -16,7 +16,7 @@
 <config>
 	<modules>
 		<Itabs_BetterPriceRounding>
-			<version>1.0.2</version>
+			<version>1.0.3</version>
 		</Itabs_BetterPriceRounding>
 	</modules>
 	<global>
@@ -31,7 +31,10 @@
 		<models>
 			<catalog>
 				<rewrite>
+					<product_option_type_date>Itabs_BetterPriceRounding_Model_Product_Option_Type_Date</product_option_type_date>
+					<product_option_type_file>Itabs_BetterPriceRounding_Model_Product_Option_Type_File</product_option_type_file>
 					<product_option_type_select>Itabs_BetterPriceRounding_Model_Product_Option_Type_Select</product_option_type_select>
+					<product_option_type_text>Itabs_BetterPriceRounding_Model_Product_Option_Type_Text</product_option_type_text>
 				</rewrite>
 			</catalog>
 			<core>
