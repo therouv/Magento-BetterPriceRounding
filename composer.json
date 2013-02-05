@@ -1,0 +1,14 @@
+{
+    "name": "throuv/better-price-rounding",
+    "type": "magento-module",
+    "description": "Better price rounding for German Magento Shops",
+    "license":"OSL-3.0",
+    "authors":[{
+        "name": "Rouven Alexander Rieker",
+        "email": "rouven.rieker@itabs.de"
+    }],
+    "require": {
+        "magento-hackathon/magento-composer-installer": "dev-master"
+    }
+}
+
